@@ -62,18 +62,6 @@
 *.[oO][gG][gG] filter=lfs diff=lfs merge=lfs -text
 *.[fF][lL][aA][cC] filter=lfs diff=lfs merge=lfs -text
 
-# Not recommended to use, but supported:
-*.[mM][pP]3 filter=lfs diff=lfs merge=lfs -text
-* [wW][mM][aA] filter=lfs diff=lfs merge=lfs -text
-*.[aA][cC]3 filter=lfs diff=lfs merge=lfs -text
-*.[aA][mM][rR] filter=lfs diff=lfs merge=lfs -text
-*.[aA][iI][fF] filter=lfs diff=lfs merge=lfs -text
-*.[aA][uU] filter=lfs diff=lfs merge=lfs -text
-*.[cC][dD][dD][aA] filter=lfs diff=lfs merge=lfs -text
-*.[cC][aA][fF] filter=lfs diff=lfs merge=lfs -text
-*.[bB][wW][fF] filter=lfs diff=lfs merge=lfs -text
-*.[aA][dD][tT][sS] filter=lfs diff=lfs merge=lfs -text
-
 --------------------------------------------------
 
 # Video formats
@@ -83,7 +71,6 @@
 # For the best compatibility and performance, it is recommended to use H.264 encoded MP4 (.mp4) container files.
 *.[mM][pP]4 filter=lfs diff=lfs merge=lfs -text
 
-Can also be used, only some platforms are supported:
 *.3[gG]2 filter=lfs diff=lfs merge=lfs -text
 *.3[gG][pP] filter=lfs diff=lfs merge=lfs -text
 *.3[gG][pP]2 filter=lfs diff=lfs merge=lfs -text
